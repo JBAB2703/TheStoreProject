@@ -21,6 +21,7 @@ namespace TheStore.Models {
         public string Name { get; set; }
 
         [Required]
+        [DataType(DataType.Currency)]
         public decimal Price { get; set; }
 
         [MaxLength(30)]
